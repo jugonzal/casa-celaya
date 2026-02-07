@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1067" viewBox="0 0 1600 1067" role="img" aria-label="Casa Celaya placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1067" fill="url(#g)"/>
+  <rect x="70" y="70" width="1460" height="927" rx="36" fill="#ffffff" stroke="#e2e8f0" stroke-width="6"/>
+  <g fill="#0f172a">
+    <text x="140" y="220" font-size="56" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-weight="700">Casa Celaya</text>
+    <text x="140" y="290" font-size="28" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" fill="#475569">Replace this placeholder with a real hero photo</text>
+  </g>
+  <g fill="none" stroke="#cbd5e1" stroke-width="10">
+    <path d="M180 860 L520 560 L740 720 L1010 420 L1420 860"/>
+    <circle cx="520" cy="560" r="26" fill="#cbd5e1" stroke="none"/>
+    <circle cx="1010" cy="420" r="26" fill="#cbd5e1" stroke="none"/>
+  </g>
+</svg>

@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Casa en Celaya — Venta</title>
+    <meta name="description" content="Casa en venta en Celaya, Guanajuato. Fotos, ubicación, detalles y contacto para agendar visita." />
+
+    <link rel="canonical" href="https://example.com/?lang=es" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Casa en Celaya — Venta" />
+    <meta property="og:description" content="Casa en venta en Celaya, Guanajuato. Fotos, ubicación, detalles y contacto para agendar visita." />
+    <meta property="og:image" content="https://example.com/assets/images/hero-1.svg" />
+    <meta property="og:url" content="https://example.com/?lang=es" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Casa en Celaya — Venta" />
+    <meta name="twitter:description" content="Casa en venta en Celaya, Guanajuato. Fotos, ubicación, detalles y contacto para agendar visita." />
+    <meta name="twitter:image" content="https://example.com/assets/images/hero-1.svg" />
+
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="preload" as="image" href="./assets/images/hero-1.svg" fetchpriority="high" />
+    <link rel="preload" as="image" href="./assets/images/hero-2.svg" />
+
+    <script id="ld-json" type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "Residence",
+      "name": "Casa en Celaya",
+      "description": "Casa en venta en Celaya, Guanajuato.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Celaya",
+        "addressRegion": "Guanajuato",
+        "addressCountry": "MX"
+      }
+    }</script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+
+    <header class="header">
+      <div class="container header__inner">
+        <div class="brand">
+          <span class="brand__title" data-i18n="siteBrand">Casa Celaya</span>
+          <span class="brand__subtitle" data-i18n="siteTagline">Sitio de propiedad</span>
+        </div>
+
+        <nav class="header__actions" aria-label="Acciones">
+          <!-- <a class="btn btn--ghost" href="#contact" data-i18n="ctaScheduleShort">Agendar visita</a> -->
+
+          <div class="lang" role="group" aria-label="Idioma">
+            <button class="lang__btn" type="button" data-lang="es">ES</button>
+            <span class="lang__sep" aria-hidden="true">|</span>
+            <button class="lang__btn" type="button" data-lang="en">EN</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="container hero__grid">
+          <div class="hero__media" aria-label="Galería principal">
+            <div class="hero__imageWrap">
+              <img
+                id="heroImage"
+                class="hero__image"
+                src="./assets/images/hero-1.svg"
+                alt=""
+                width="1600"
+                height="1067"
+                decoding="async"
+                fetchpriority="high"
+              />
+
+              <button class="hero__nav hero__nav--left" type="button" id="heroPrev" aria-label="Anterior" data-i18n-aria="galleryPrev">‹</button>
+              <button class="hero__nav hero__nav--right" type="button" id="heroNext" aria-label="Siguiente" data-i18n-aria="galleryNext">›</button>
+
+              <button class="hero__open" type="button" id="openLightbox" data-i18n="openGallery">
+                Ver galería
+              </button>
+            </div>
+
+            <div class="galleryTabs" role="tablist" aria-label="Categorías">
+              <!-- injected -->
+            </div>
+
+            <div class="thumbs" id="thumbStrip" aria-label="Miniaturas">
+              <!-- injected -->
+            </div>
+          </div>
+
+          <div class="hero__copy">
+            <h1 class="hero__title" data-i18n="headline">Casa en Celaya</h1>
+            <p class="hero__sub" data-i18n="subheadline">
+              Luz natural, buena ubicación y lista para visitarse.
+            </p>
+
+            <div class="facts" aria-label="Datos rápidos">
+              <div class="fact"><span class="fact__k" data-i18n="factsBeds">Recámaras</span><span class="fact__v" data-bind="facts.beds">3</span></div>
+              <div class="fact"><span class="fact__k" data-i18n="factsBaths">Baños</span><span class="fact__v" data-bind="facts.baths">2</span></div>
+              <div class="fact"><span class="fact__k" data-i18n="factsParking">Estacionamiento</span><span class="fact__v" data-bind="facts.parking">2</span></div>
+              <div class="fact"><span class="fact__k" data-i18n="factsLot">Terreno</span><span class="fact__v" data-bind="facts.lotSize">—</span></div>
+              <div class="fact"><span class="fact__k" data-i18n="factsBuild">Construcción</span><span class="fact__v" data-bind="facts.buildSize">—</span></div>
+            </div>
+
+            <div class="status" role="note">
+              <span class="status__label" data-i18n="statusLabel">Estatus:</span>
+              <span class="status__value" data-bind="facts.status">Escritura en orden</span>
+            </div>
+
+            <div class="hero__ctas">
+              <!-- <a class="btn btn--primary" href="#contact" data-i18n="ctaSchedule">Agendar visita</a> -->
+              <a class="btn btn--ghost" id="whatsappLinkTop" href="#" rel="noopener" target="_blank" data-i18n="ctaWhatsApp">WhatsApp</a>
+              <!-- <a class="btn btn--ghost" id="callLinkTop" href="#" data-i18n="ctaCall">Llamar</a> -->
+            </div>
+
+            <p class="hero__fine" data-i18n="trustLine">Atención directa. Respuesta rápida. Sin intermediarios.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="why">
+        <div class="container">
+          <h2 class="section__title" data-i18n="whyTitle">Por qué esta casa</h2>
+          <ul class="bullets" id="whyBullets"></ul>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title" data-i18n="galleryTitle">Galería</h2>
+            <button class="btn btn--ghost" type="button" id="openLightbox2" data-i18n="openGallery">Ver galería</button>
+          </div>
+          <p class="section__sub" data-i18n="galleryHint">Toca una foto para verla en pantalla completa.</p>
+
+          <div class="masonry" id="galleryGrid" aria-label="Fotos"></div>
+        </div>
+      </section>
+
+      <section class="section" id="video" hidden>
+        <div class="container">
+          <h2 class="section__title" data-i18n="videoTitle">Video tour</h2>
+          <div class="video">
+            <video id="videoEl" controls preload="none" playsinline width="1280" height="720">
+              <!-- injected sources -->
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="details">
+        <div class="container">
+          <h2 class="section__title" data-i18n="detailsTitle">Características y detalles</h2>
+          <div class="chips" id="detailChips"></div>
+          <div class="table" role="table" aria-label="Detalles">
+            <div class="row" role="row"><div class="cell cell--k" role="cell" data-i18n="detailsNeighborhood">Zona</div><div class="cell" role="cell" data-bind="details.neighborhood">—</div></div>
+            <div class="row" role="row"><div class="cell cell--k" role="cell" data-i18n="detailsLevels">Niveles</div><div class="cell" role="cell" data-bind="details.levels">—</div></div>
+            <div class="row" role="row"><div class="cell cell--k" role="cell" data-i18n="detailsCondition">Condición</div><div class="cell" role="cell" data-bind="details.condition">—</div></div>
+            <div class="row" role="row"><div class="cell cell--k" role="cell" data-i18n="detailsNotes">Notas</div><div class="cell" role="cell" data-bind="details.notes">—</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="location">
+        <div class="container">
+          <h2 class="section__title" data-i18n="locationTitle">Ubicación</h2>
+          <p class="section__sub" data-i18n="locationHint">Ubicación aproximada por privacidad. Agenda visita para la dirección exacta.</p>
+
+          <div class="mapGrid">
+            <div class="map" aria-label="Mapa">
+              <iframe
+                id="mapFrame"
+                title="Google Maps"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src=""
+              ></iframe>
+            </div>
+            <div>
+              <h3 class="miniTitle" data-i18n="nearbyTitle">Cerca de</h3>
+              <div class="cards" id="nearbyCards"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="downloads">
+        <div class="container">
+          <h2 class="section__title" data-i18n="downloadsTitle">Descargas</h2>
+          <div class="downloads" id="downloadLinks"></div>
+        </div>
+      </section>
+
+      <!-- <section class="section" id="contact">
+        <div class="container">
+          <h2 class="section__title" data-i18n="contactTitle">Contactar / Agendar visita</h2>
+
+          <div class="contactGrid">
+            <div class="contactCard">
+              <h3 class="miniTitle" data-i18n="contactOptionsTitle">Opciones rápidas</h3>
+              <div class="contactBtns">
+                <a class="btn btn--primary" id="whatsappLink" href="#" rel="noopener" target="_blank" data-i18n="ctaWhatsApp">WhatsApp</a>
+                <a class="btn btn--ghost" id="callLink" href="#" data-i18n="ctaCall">Llamar</a>
+              </div>
+              <p class="fine" data-i18n="contactFine">También puedes llenar el formulario y te contactamos.</p>
+            </div>
+
+            <form class="form" name="lead" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="leadForm">
+              <input type="hidden" name="form-name" value="lead" />
+              <p class="hidden">
+                <label>
+                  Don’t fill this out: <input name="bot-field" />
+                </label>
+              </p>
+
+              <div class="field">
+                <label for="name" data-i18n="formName">Nombre</label>
+                <input id="name" name="name" autocomplete="name" required />
+              </div>
+
+              <div class="field">
+                <label for="phone" data-i18n="formPhone">Teléfono</label>
+                <input id="phone" name="phone" autocomplete="tel" inputmode="tel" required />
+              </div>
+
+              <div class="field">
+                <label for="email" data-i18n="formEmail">Email</label>
+                <input id="email" name="email" autocomplete="email" inputmode="email" type="email" />
+              </div>
+
+              <div class="field">
+                <label for="message" data-i18n="formMessage">Mensaje</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+
+              <div class="field">
+                <label for="time" data-i18n="formPreferredTime">Horario preferido</label>
+                <input id="time" name="preferred_time" autocomplete="off" placeholder="" />
+              </div>
+
+              <div class="form__actions">
+                <button class="btn btn--primary" type="submit" id="submitBtn" data-i18n="formSubmit">Enviar</button>
+                <p class="form__status" id="formStatus" aria-live="polite"></p>
+              </div>
+            </form>
+          </div>
+
+          <div class="privacy" id="privacy">
+            <h3 class="miniTitle" data-i18n="privacyTitle">Privacidad</h3>
+            <p class="fine" data-i18n="privacyText">
+              Usamos tus datos sólo para responder sobre esta propiedad. No compartimos tu información con terceros.
+            </p>
+          </div>
+        </div>
+      </section> -->
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="fine">
+          <span data-i18n="footerCredits">© Casa Celaya. Sitio informativo.</span>
+          <a class="link" href="#privacy" data-i18n="footerPrivacy">Privacidad</a>
+        </p>
+      </div>
+    </footer>
+
+    <div class="sticky" id="stickyCta" role="region" aria-label="CTA">
+      <!-- <a class="btn btn--primary sticky__btn" href="#contact" data-i18n="ctaSchedule">Agendar visita</a> -->
+      <a class="btn btn--ghost sticky__btn" id="whatsappLinkSticky" href="#" rel="noopener" target="_blank" data-i18n="ctaWhatsApp">WhatsApp</a>
+    </div>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightbox__backdrop" data-close="true"></div>
+      <div class="lightbox__panel" role="dialog" aria-modal="true" aria-label="Galería">
+        <button class="iconBtn" type="button" id="lbClose" aria-label="Cerrar">×</button>
+        <button class="iconBtn iconBtn--left" type="button" id="lbPrev" aria-label="Anterior">‹</button>
+        <button class="iconBtn iconBtn--right" type="button" id="lbNext" aria-label="Siguiente">›</button>
+
+        <figure class="lightbox__figure">
+          <img id="lbImg" alt="" decoding="async" />
+          <figcaption class="lightbox__caption" id="lbCaption"></figcaption>
+        </figure>
+
+        <div class="lightbox__thumbs" id="lbThumbs" aria-label="Miniaturas"></div>
+      </div>
+    </div>
+
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>

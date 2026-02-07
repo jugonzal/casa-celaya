@@ -1,0 +1,316 @@
+{
+  "property": {
+    "siteUrl": "https://example.com",
+    "heroFallbackAbsolute": "https://example.com/assets/images/hero-1.svg",
+    "shareImageUrl": "https://example.com/assets/images/hero-1.svg",
+
+    "addressLocality": "Celaya",
+    "addressRegion": "Guanajuato",
+    "addressCountry": "MX",
+
+    "facts": {
+      "beds": 3,
+      "baths": 2,
+      "parking": 2,
+      "lotSize": "300m²",
+      "buildSize": "191m²",
+      "status": "Escritura en orden. Avaluo reciente."
+    },
+
+    "details": {
+      "neighborhood": "Jardines de Celaya",
+      "levels": "1 nivel",
+      "condition": "Buen   estado, lista para habitarse",
+      "notes": ""
+    },
+
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6588.257851039832!2d-100.79860249397288!3d20.517660951229104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842cb080c0ff4833%3A0xe2e36d6b224412cc!2sTabachines%2C%2038080%20Celaya%2C%20Gto.%2C%20Mexico!5e0!3m2!1sen!2sca!4v1770507729517!5m2!1sen!2sca",
+
+    "downloads": [
+      { "key": "flyer", "href": "./assets/docs/flyer.pdf", "label": "Flyer" },
+      { "key": "floorplan", "href": "./assets/docs/floorplan.pdf", "label": "Plano" }
+    ],
+
+    "contact": {
+      "whatsappNumber": "+52 461 208 5532",
+      "phoneNumber": "+52 000 000 0000"
+    },
+
+    "video": {
+      "src": "",
+      "type": "video/mp4"
+    },
+
+    "gallery": {
+      "categories": [
+        {
+          "key": "exterior",
+          "label": "Exterior",
+          "images": [
+            { "src": "./assets/images/IMG_9787.jpg", "caption_es": "Fachada", "caption_en": "Front" },
+            { "src": "./assets/images/IMG_9788.jpg", "caption_es": "Acceso", "caption_en": "Entrance" }
+          ]
+        },
+        {
+          "key": "living",
+          "label": "Áreas sociales",
+          "images": [
+            { "src": "./assets/images/IMG_9789.jpg", "caption_es": "Sala", "caption_en": "Living room" },
+            { "src": "./assets/images/IMG_9794.jpg", "caption_es": "Comedor", "caption_en": "Dining room" },
+            { "src": "./assets/images/IMG_9807.jpg", "caption_es": "Estudio", "caption_en": "Office" }
+
+          ]
+        },
+        {
+          "key": "bedrooms",
+          "label": "Recámaras",
+          "images": [
+            { "src": "./assets/images/IMG_9798.jpg", "caption_es": "Recámara", "caption_en": "Bedroom" },
+            { "src": "./assets/images/IMG_9800.jpg", "caption_es": "Recámara", "caption_en": "Bedroom" },
+            { "src": "./assets/images/IMG_9804.jpg", "caption_es": "Recámara", "caption_en": "Bedroom" }
+          ]
+        },
+        {
+          "key": "kitchen",
+          "label": "Cocina",
+          "images": [
+            { "src": "./assets/images/IMG_9784.jpg", "caption_es": "Cocina", "caption_en": "Kitchen" }
+          ]
+        },
+        {
+          "key": "bathrooms",
+          "label": "Baños",
+          "images": [
+            { "src": "./assets/images/IMG_9796.jpg", "caption_es": "Baño", "caption_en": "Bathroom" },
+            { "src": "./assets/images/IMG_9806.jpg", "caption_es": "Baño", "caption_en": "Bathroom" }
+          ]
+        },
+        {
+          "key": "patio",
+          "label": "Patio/Jardín",
+          "images": [
+            { "src": "./assets/images/IMG_9823.jpg", "caption_es": "Patio Trasero", "caption_en": "Backyard" },
+            { "src": "./assets/images/IMG_9818.jpg", "caption_es": "Patio Interior", "caption_en": "Solarium" }
+          ]
+        },
+        {
+          "key": "street",
+          "label": "Calle",
+          "images": [
+            { "src": "./assets/images/IMG_9832.jpg", "caption_es": "Vista de calle", "caption_en": "Street view" }
+          ]
+        }
+      ]
+    }
+  },
+
+  "es": {
+    "metaTitle": "Casa en Celaya — Venta",
+    "metaDescription": "Casa en venta en Celaya, Guanajuato. Fotos, ubicación, detalles y contacto para agendar visita.",
+    "schemaName": "Casa en Celaya",
+
+    "siteBrand": "Casa Celaya",
+    "siteTagline": "Sitio de propiedad",
+
+    "headline": "Casa en Celaya",
+    "subheadline": "Luz natural, 1 planta, buena ubicación y lista para visitarse.",
+
+    "ctaSchedule": "Agendar visita",
+    "ctaScheduleShort": "Agendar visita",
+    "ctaWhatsApp": "WhatsApp",
+    "ctaCall": "Llamar",
+
+    "openGallery": "Ver galería",
+    "galleryTitle": "Galería",
+    "galleryHint": "Toca una foto para verla en pantalla completa.",
+    "galleryPrev": "Foto anterior",
+    "galleryNext": "Siguiente foto",
+
+    "whyTitle": "Por qué esta casa",
+    "whyBullets": [
+      "Excelente iluminación natural",
+      "Distribución práctica para familia",
+      "Una sola planta para comodidad y accesibilidad",
+      "Buena conectividad a vialidades",
+      "Centro comercial a dos cuadras",
+      "Vecinos tranquilos y amables",
+      "Alarma vecinal y portón eléctrico para seguridad",
+      "Lista para agendar visita"
+    ],
+
+    "videoTitle": "Video tour",
+
+    "detailsTitle": "Características y detalles",
+    "detailChips": ["Lista para visitar", "Documentación en orden"],
+
+    "detailsNeighborhood": "Zona",
+    "detailsLevels": "Niveles",
+    "detailsCondition": "Condición",
+    "detailsNotes": "Notas",
+
+    "locationTitle": "Ubicación",
+    "locationHint": "Ubicación aproximada por privacidad. Agenda visita para la dirección exacta.",
+    "nearbyTitle": "Cerca de",
+    "nearby": [
+      { "title": "5 min", "desc": "Oxxo, Chedraui, Starbucks, Iglesia, KFC" },
+      { "title": "Accesos", "desc": "Blvd Adolfo López Mateos, Av. Constituyentes" }
+    ],
+
+    "downloadsTitle": "Descargas",
+    "downloadLabels": {
+      "flyer": "Flyer (PDF)",
+      "floorplan": "Plano (PDF)"
+    },
+
+    "contactTitle": "Contactar / Agendar visita",
+    "contactOptionsTitle": "Opciones rápidas",
+    "contactFine": "También puedes llenar el formulario y te contactamos.",
+
+    "formName": "Nombre",
+    "formPhone": "Teléfono",
+    "formEmail": "Email",
+    "formMessage": "Mensaje",
+    "formPreferredTime": "Horario preferido",
+    "formPreferredTimePlaceholder": "Ej. Hoy 6–8pm / Sábado por la mañana",
+    "formSubmit": "Enviar",
+    "formSubmitting": "Enviando…",
+    "formThanks": "Gracias. En breve te contactamos.",
+    "formRateLimit": "Espera un momento antes de enviar otra vez.",
+
+    "privacyTitle": "Privacidad",
+    "privacyText": "Usamos tus datos sólo para responder sobre esta propiedad. No compartimos tu información con terceros.",
+
+    "footerCredits": "© Casa Celaya. Sitio informativo.",
+    "footerPrivacy": "Privacidad",
+
+    "factsBeds": "Recámaras",
+    "factsBaths": "Baños",
+    "factsParking": "Estacionamiento",
+    "factsLot": "Terreno",
+    "factsBuild": "Construcción",
+    "statusLabel": "Estatus:",
+
+    "trustLine": "Atención directa. Respuesta rápida. Sin intermediarios.",
+
+    "heroAlt": "Foto de la propiedad",
+    "thumbLabel": "Miniatura",
+    "captionFallback": "",
+
+    "whatsappPrefill": "Hola, me interesa {property}. ¿Podemos agendar una visita? {url}",
+
+    "galleryCategoryLabels": {
+      "exterior": "Exterior",
+      "living": "Áreas sociales",
+      "bedrooms": "Recámaras",
+      "kitchen": "Cocina",
+      "bathrooms": "Baños",
+      "patio": "Patio/Jardín",
+      "street": "Calle"
+    }
+  },
+
+  "en": {
+    "metaTitle": "Home in Celaya — For Sale",
+    "metaDescription": "Home for sale in Celaya, Guanajuato. Photos, location, details, and easy ways to schedule a visit.",
+    "schemaName": "Home in Celaya",
+
+    "siteBrand": "Casa Celaya",
+    "siteTagline": "Single-property site",
+
+    "headline": "Home in Celaya",
+    "subheadline": "Bright, well-located, and easy to visit.",
+
+    "ctaSchedule": "Schedule a visit",
+    "ctaScheduleShort": "Schedule",
+    "ctaWhatsApp": "WhatsApp",
+    "ctaCall": "Call",
+
+    "openGallery": "View gallery",
+    "galleryTitle": "Gallery",
+    "galleryHint": "Tap a photo to view fullscreen.",
+    "galleryPrev": "Previous photo",
+    "galleryNext": "Next photo",
+
+    "whyTitle": "Why this home",
+    "whyBullets": [
+      "Great natural light",
+      "Practical layout for a family",
+      "Single level for comfort and accessibility",
+      "Easy access to main roads",
+      "Shopping center two blocks away",
+      "Quiet and friendly neighbors",
+      "Neighborhood alarm system and electric gate for security",
+      "Ready to schedule a visit"
+    ],
+
+    "videoTitle": "Video tour",
+
+    "detailsTitle": "Features & details",
+    "detailChips": ["Easy to visit", "Documents ready"],
+
+    "detailsNeighborhood": "Area",
+    "detailsLevels": "Levels",
+    "detailsCondition": "Condition",
+    "detailsNotes": "Notes",
+
+    "locationTitle": "Location",
+    "locationHint": "Approximate location for privacy. Schedule a visit for the exact address.",
+    "nearbyTitle": "Nearby",
+    "nearby": [
+      { "title": "5 min", "desc": "Shops and services" },
+      { "title": "Access", "desc": "Main roads" }
+    ],
+
+    "downloadsTitle": "Downloads",
+    "downloadLabels": {
+      "flyer": "Flyer (PDF)",
+      "floorplan": "Floor plan (PDF)"
+    },
+
+    "contactTitle": "Contact / Schedule a visit",
+    "contactOptionsTitle": "Quick options",
+    "contactFine": "Or fill out the form and we’ll reach out.",
+
+    "formName": "Name",
+    "formPhone": "Phone",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formPreferredTime": "Preferred time",
+    "formPreferredTimePlaceholder": "e.g., Today 6–8pm / Saturday morning",
+    "formSubmit": "Send",
+    "formSubmitting": "Sending…",
+    "formThanks": "Thanks. We’ll contact you soon.",
+    "formRateLimit": "Please wait a moment before submitting again.",
+
+    "privacyTitle": "Privacy",
+    "privacyText": "We use your details only to reply about this property. We don’t share your info with third parties.",
+
+    "footerCredits": "© Casa Celaya. Informational site.",
+    "footerPrivacy": "Privacy",
+
+    "factsBeds": "Bedrooms",
+    "factsBaths": "Bathrooms",
+    "factsParking": "Parking",
+    "factsLot": "Lot",
+    "factsBuild": "Build",
+    "statusLabel": "Status:",
+
+    "trustLine": "Direct contact. Fast response. No middlemen.",
+
+    "heroAlt": "Property photo",
+    "thumbLabel": "Thumbnail",
+    "captionFallback": "",
+
+    "whatsappPrefill": "Hi, I’m interested in {property}. Can we schedule a visit? {url}",
+
+    "galleryCategoryLabels": {
+      "exterior": "Exterior",
+      "living": "Living areas",
+      "bedrooms": "Bedrooms",
+      "kitchen": "Kitchen",
+      "bathrooms": "Bathrooms",
+      "patio": "Patio/Garden",
+      "street": "Street view"
+    }
+  }
+}
